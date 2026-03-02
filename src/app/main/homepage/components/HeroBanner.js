@@ -22,7 +22,7 @@ export default function HeroBanner() {
           <div className="social-rail-line" />
           <div className="social-links">
             {['FB', 'TW', 'IG', 'PIN'].map((s) => (
-              <a key={s} href="#" aria-label={s}>{s}</a>
+              <a key={s} href="/" aria-label={s}>{s}</a>
             ))}
           </div>
           <div className="social-rail-line" />
